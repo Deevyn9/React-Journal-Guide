@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    height: 90vh;
+    background-color: whitesmoke;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    background-color:white;
+    margin: 50px 0;
+    width: 550px;
+    height: 704px;
+}
+
+header {
+    background-color: rgba(245, 90, 90, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+}
+
+.globe {
+    background: url(./images/globe.png) no-repeat;
+    background-size: contain;
+    height: 24px;
+    width: 24px;
+}
+
+header h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+.place-list {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 55px);
+    justify-content: space-evenly;
+    /* margin: 40px 0; */
+}
+
+.place-container {
+    margin: 0 40px;
+    display: flex;
+    height: 168px;
+    justify-content: space-between;
+}
+
+.p-img {
+    width: 125px;
+    height: 168px;
+}
+
+.p-img img {
+    height: 100%;
+    width: 100%;    
+    border-radius: 5px;
+} 
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.l-img {
+    background: url(./images/location.png) no-repeat;
+    background-size: contain;
+    height: 7px;
+    width: 9px;
+    margin-right: 4px;
+}
+
+.location h3 {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-right: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.location a {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.p-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 326px;
+}
+
+.p-info h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.date {
+    display: flex;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.p-info p {
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 55%;
+}
+
+.loc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40%;
+}
